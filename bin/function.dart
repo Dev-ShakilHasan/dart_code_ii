@@ -37,19 +37,67 @@
 // }
 ///Write a Dart function called findMax that takes three parameters: num1, num2, and num3,
 ///representing three numbers, and returns the maximum of the three numbers.
-void main(){
+// void main(){
+//
+//   findMax(15, 6, 8);
+//
+// }
+//  findMax(int num1, int num2, int num3){
+//   if(num1>num2 && num1>num3){
+//     print('$num1 is the biggest number');
+//   }
+//   else if(num2>num1 && num2>num3) {
+//     print('$num2 is the biggest');
+//   }
+//   else {
+//     print('$num3 is the biggest');
+//   }
+// }
 
-  findMax(15, 6, 8);
+///Write a Dart function called isEven that takes one parameter: number, representing an integer number,
+/// and returns true if the number is even, or false if the number is odd.
 
-}
- findMax(int num1, int num2, int num3){
-  if(num1>num2 && num1>num3){
-    print('$num1 is the biggest number');
-  }
-  else if(num2>num1 && num2>num3) {
-    print('$num2 is the biggest');
-  }
-  else {
-    print('$num3 is the biggest');
-  }
-}
+// void main() {
+//   bool number_1=isEven(4);
+//   bool number_2=isEven(3);
+//   bool number_3=isEven(12);
+//   print(number_1);
+//   print(number_2);
+//   print(number_3);
+// }
+// bool isEven(int number) {
+//   if (number % 2 == 0) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+
+///Write a Dart function called reverseString that takes one parameter: str, representing a string,
+/// and returns a new string with the characters in reverse order.
+
+// void main(){
+// print(reverseString('This is Md. Shakil Hasan'));
+//
+// }
+// String reverseString(String str) {
+//   // TODO: Reverse the order of characters in the string and return the new string
+//   return str.split('').reversed.join('');
+// }
+
+/// Write a function that takes a list of integers as a parameter and returns the sum of all the elements in the list.
+// void main(){
+// print(sumOfAListOfInt([1,3,4,7,3]));
+// }
+//  int sumOfAListOfInt(List<int> listOfNumber){
+//   return listOfNumber.reduce((value, element) => value+element);
+// }
+///...OR...........
+// int sumOfAListOfInt(List<int> listOfNumber){
+//   var sum=0;
+//   for(var i=0; i<listOfNumber.length; i++){
+//     sum+=listOfNumber[i];
+//   }
+//   return sum;
+// }
+///Write a function that takes a list of strings as a parameter and returns a new list with all the strings in uppercase.
